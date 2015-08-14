@@ -11,7 +11,10 @@ namespace CSExercises
         public static void Main(string[] args)
         {
             double num;
-            System.Console.Write("Please Tke your number")
+            System.Console.Write("Please Tke your number");
+            string str = Console.ReadLine();
+            num = Convert.ToDouble(str);
+
         }
     }
 }

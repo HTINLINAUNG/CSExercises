@@ -10,7 +10,8 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            double num;
+            System.Console.Write("Please Tke your number")
         }
     }
 }

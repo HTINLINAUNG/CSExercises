@@ -10,11 +10,10 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            double num;
-            System.Console.Write("Please Tke your number");
-            string str = Console.ReadLine();
-            num = Convert.ToDouble(str);
-
+            Console.WriteLine("Please Enter Your Double Precisoin Number");
+            double d = double.Parse(Console.ReadLine());
+            Console.WriteLine("The Square of the Number is"+" "+d*d);
+            Console.ReadLine();
         }
     }
 }

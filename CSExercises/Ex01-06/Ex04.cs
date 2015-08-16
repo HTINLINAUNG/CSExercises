@@ -10,7 +10,10 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            Console.WriteLine("Please Enter the Double No to get answer of the Square root of the Number");
+            double d = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("The Square Root of the Number is"+" " + Math.Sqrt(d));
+            Console.ReadLine();
         }
     }
 }

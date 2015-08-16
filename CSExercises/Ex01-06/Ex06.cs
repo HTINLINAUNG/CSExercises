@@ -10,7 +10,17 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            Console.Write("Enter Your Integer Number");
+            try
+            {
+                int num = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Please Enter the Square root of the Number is{0:#.####)}", Math.Sqrt(num));
+            }
+            catch (Exception ex)
+            {
+                System.Console.WriteLine("Your Number is not Vaild.");
+            }
+
         }
     }
 }

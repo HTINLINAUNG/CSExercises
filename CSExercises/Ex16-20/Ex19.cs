@@ -14,7 +14,7 @@ namespace CSExercises
             if (kilo <= 0.5)
             { Console.WriteLine("The Fare is"+ Math.Round(2.40*kilo)); }
             else if (kilo >= 0.5 && kilo <= 9.0)
-            { Console.WriteLine("The Fare is " +Math.Round ((2.40 * kilo) + ((100 * kilo) * 0.04))); }
+            { Console.WriteLine("The Fare is " +Math.Round ((2.40 * 0.5) + ((100 * kilo) * 0.04))); }
             else if (kilo > 9)
             { 
             Console.WriteLine("The Fare is"+Math.Round((2.40*kilo)+((100*kilo)*0.04)+(  ( (100*kilo)*0.05))));

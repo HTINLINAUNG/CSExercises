@@ -16,7 +16,7 @@ namespace CSExercises
                 int num = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Please Enter the Square root of the Number is{0:#.####)}", Math.Sqrt(num));
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 System.Console.WriteLine("Your Number is not Vaild.");
             }

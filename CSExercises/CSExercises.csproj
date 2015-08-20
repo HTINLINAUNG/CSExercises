@@ -47,7 +47,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSExercises.Ex39</StartupObject>
+    <StartupObject>CSExercises.Ex41</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <ItemGroup>
@@ -84,7 +84,7 @@
     <Compile Include="Ex21-24\Ex22.cs" />
     <Compile Include="Ex21-24\Ex23.cs" />
     <Compile Include="Ex21-24\Ex24.cs" />
-    <Compile Include="Ex25-29\Ex25.cs" />
+    <Compile Include="Ex21-24\Ex25.cs" />
     <Compile Include="Ex25-29\Ex26.cs" />
     <Compile Include="Ex25-29\Ex27.cs" />
     <Compile Include="Ex25-29\Ex28.cs" />

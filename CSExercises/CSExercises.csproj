@@ -47,7 +47,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSExercises.Ex44</StartupObject>
+    <StartupObject>CSExercises.Ex15</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <ItemGroup>

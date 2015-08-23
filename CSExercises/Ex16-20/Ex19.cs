@@ -9,16 +9,23 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Enter Your Kilometer");
-            double kilo = Convert.ToDouble(Console.ReadLine());
-            if (kilo <= 0.5)
-            { Console.WriteLine("The Fare is"+ Math.Round(2.40*kilo)); }
-            else if (kilo >= 0.5 && kilo <= 9.0)
-            { Console.WriteLine("The Fare is " +Math.Round ((2.40 * 0.5) + ((100 * kilo) * 0.04))); }
-            else if (kilo > 9)
-            { 
-            Console.WriteLine("The Fare is"+Math.Round((2.40*kilo)+((100*kilo)*0.04)+(  ( (100*kilo)*0.05))));
+            Console.WriteLine("Please enter the distance");
+            double distance = Convert.ToDouble(Console.ReadLine());
+            double distance_round = Math.Ceiling(distance * 10) / 10;
+            double amount = 0;
+            if (distance_round <= 0.5)
+            {
+                amount = 2.40;
             }
+            else if (distance_round > 0.5 && distance_round <= 8.5)
+            {
+                amount = 2.40 + (0.04 * ((8.5 * 100) / 10));
+            }
+            else if (distance_round > 9)
+            {
+                amount = 2.40 + 85 * 0.04 + (((distance_round * 10) - 90) * 0.05);
+            }
+            Console.WriteLine("The Total Fare is {0}", amount);
         }
     }
 }
